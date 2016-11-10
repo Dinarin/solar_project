@@ -45,7 +45,7 @@ def parse_star_parameters(line, star):
     """
     line = line.split()
     star.name = line[0]
-    star.r = line[1]
+    star.R = line[1]
     star.color = line[2]
     star.m = line[3]
     star.x = line[4]
@@ -72,7 +72,7 @@ def parse_planet_parameters(line, planet):
     """
     line = line.split()
     planet.name = line[0]
-    planet.r = line[1]
+    planet.R = line[1]
     planet.color = line[2]
     planet.m = line[3]
     planet.x = line[4]
