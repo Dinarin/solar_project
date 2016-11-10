@@ -121,7 +121,7 @@ def main():
     space.pack(side=tkinter.TOP)
     # нижняя панель с кнопками
     frame = tkinter.Frame(root)
-    frame.pack(side=tkinter.BOTTOM)
+    frame.pack(side=tkinter.RIGHT)
 
     start_button = tkinter.Button(frame, text="Start", command=start_execution, width=6)
     start_button.pack(side=tkinter.LEFT)
